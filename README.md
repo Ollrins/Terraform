@@ -20,7 +20,7 @@ Cогласно данному файлу, для хранения личной,
 <p align="center">
   <img src="screenshots/S1-3.png" alt="state-файл, содержимое созданного ресурса random_password1" width="900"/>
   <br>
-  <em>Рисунок  - state-файл, содержимое созданного ресурса random_password </em>
+  <em>Рисунок  - state-файл, содержимое созданного ресурса random_password - "result": "KKT0PObgTZyB2LaY" </em>
 </p>
 
 ### 1.4
