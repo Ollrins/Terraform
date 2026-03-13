@@ -52,16 +52,17 @@ Terraform определит, что старый ресурс docker_container.
 - скрипты и автоматизация — когда нужно выполнить изменения без участия человека <br>
 - обучение и эксперименты — для быстрого применения учебных конфигураций <br>
 
-<p align="center">
-  <img src="screenshots/S1-6.png" alt="содержимое файла terraform.tfstate" width="900"/>
-  <br>
-  <em>Рисунок  - содержимое файла terraform.tfstate</em>
-
-### 1.7
   <p align="center">
   <img src="screenshots/S1-6.png" alt="вывод команды docker ps" width="900"/>
   <br>
   <em>Рисунок  - вывод команды docker ps</em>
+<
+
+### 1.7
+p align="center">
+  <img src="screenshots/S1-7.png" alt="содержимое файла terraform.tfstate" width="900"/>
+  <br>
+  <em>Рисунок  - содержимое файла terraform.tfstate</em>
 
 ### 1.8 
 В файле main.tf в ресурсе docker_image.nginx есть важный параметр:
