@@ -36,10 +36,8 @@ Cогласно данному файлу, для хранения личной,
 </p>
 
 ### 1.6 terraform apply с ключом -auto-approve
-```bash
-terraform apply -auto-approve
-```
-Terraform поймёт, что старый ресурс docker_container.nginx нужно удалить, а новый docker_container.hello_world — создать. <br>
+terraform apply -auto-approve  <br>
+Terraform определит, что старый ресурс docker_container.nginx нужно удалить, а новый docker_container.hello_world — создать. <br>
 Ключ -auto-approve автоматически подтверждает выполнение без запроса yes. Это опасно, потому что: <br>
 Непреднамеренное удаление ресурсов — можно случайно уничтожить важные данные <br>
 Нет возможности проверить план — вы не видите, что именно изменится <br>
