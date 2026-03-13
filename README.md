@@ -2,9 +2,9 @@
 
 ## Задание 1
 <p align="center">
-  <img src="screenshots/S1.png" alt="state-проект" width="900"/>
+  <img src="screenshots/S1.png" alt="Terraform установка" width="900"/>
   <br>
-  <em>Рисунок  - проект </em>
+  <em>Рисунок  - Terraform установка </em>
 </p>
 
 ###  1.2 
