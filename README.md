@@ -56,10 +56,10 @@ Terraform определит, что старый ресурс docker_container.
   <img src="screenshots/S1-6.png" alt="вывод команды docker ps" width="900"/>
   <br>
   <em>Рисунок  - вывод команды docker ps</em>
-<
+
 
 ### 1.7
-p align="center">
+<p align="center">
   <img src="screenshots/S1-7.png" alt="содержимое файла terraform.tfstate" width="900"/>
   <br>
   <em>Рисунок  - содержимое файла terraform.tfstate</em>
