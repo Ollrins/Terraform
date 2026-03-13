@@ -6,7 +6,7 @@
   <br>
   <em>Рисунок  - проект </em>
 </p>
-### 1.2 <br>
+### 1.2 
 В файле .gitignore указана строка:
 <br>
 # own secret vars store.<br>
