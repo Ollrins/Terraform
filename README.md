@@ -75,10 +75,10 @@ keep_locally (Boolean) If true, the image will be kept when the resource is dest
 Ускорить повторное создание — образ уже есть локально
 Сохранить кастомные образы — если бы вы создали свой образ на основе nginx
 
-## Задание 1
+## Задание 2
 
   <p align="center">
-  <img src="screenshots/S2.png" alt="наличие секретных env-переменных с помощью команды env" width="900"/>
+  <img src="screenshots/S2-6.png" alt="наличие секретных env-переменных с помощью команды env" width="900"/>
   <br>
   <em>Рисунок  - наличие секретных env-переменных с помощью команды env ps</em>
 
