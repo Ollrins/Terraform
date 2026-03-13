@@ -1,7 +1,11 @@
 # Домашнее задание к занятию «Введение в Terraform»
 
 ## Задание 1
-
+<p align="center">
+  <img src="screenshots/S1.png" alt="state-проект" width="900"/>
+  <br>
+  <em>Рисунок  - проект </em>
+</p>
 ### 1.2
 В файле .gitignore указана строка:
 ```bash
@@ -13,7 +17,7 @@ Cогласно данному файлу, для хранения личной,
 
 ### 1.3
 <p align="center">
-  <img src="screenshots/S1.png" alt="state-файл, содержимое созданного ресурса random_password1" width="900"/>
+  <img src="screenshots/S1-3.png" alt="state-файл, содержимое созданного ресурса random_password1" width="900"/>
   <br>
   <em>Рисунок  - state-файл, содержимое созданного ресурса random_password </em>
 </p>
