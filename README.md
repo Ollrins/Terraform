@@ -10,7 +10,7 @@
 ###  1.2 
 В файле .gitignore указана строка:
 <br>
-# own secret vars store.<br>
+own secret vars store.<br>
 personal.auto.tfvars
 <br>
 Cогласно данному файлу, для хранения личной, секретной информации (логинов, паролей, ключей, токенов) предназначен файл personal.auto.tfvars. <br>
