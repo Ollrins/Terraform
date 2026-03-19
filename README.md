@@ -89,3 +89,23 @@ resource "docker_image" "nginx" {
   <br>
   <em>Рисунок  - наличие секретных env-переменных с помощью команды env ps</em>
 
+
+Скачивание Terraform с зеркала Яндекса
+```bash
+wget https://hashicorp-releases.yandexcloud.net/terraform/1.14.7/terraform_1.14.7_linux_amd64.zip
+unzip terraform_1.14.7_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
+terraform --version
+```
+Скачивание и установка провайдера Docker
+```bash
+wget https://github.com/kreuzwerker/terraform-provider-docker/releases/download/v3.9.0/terraform-provider-docker_3.9.0_linux_amd64.zip
+unzip terraform-provider-docker_3.9.0_linux_amd64.zip -d ~/.terraform.d/plugins/registry.terraform.io/kreuzwerker/docker/3.9.0/linux_amd64/
+chmod +x ~/.terraform.d/plugins/registry.terraform.io/kreuzwerker/docker/3.9.0/linux_amd64/terraform-provider-docker*
+```
+1.4 Скачивание и установка провайдера Random
+```bash
+wget https://hashicorp-releases.yandexcloud.net/terraform-provider-random/3.6.0/terraform-provider-random_3.6.0_linux_amd64.zip
+unzip terraform-provider-random_3.6.0_linux_amd64.zip -d ~/.terraform.d/plugins/registry.terraform.io/hashicorp/random/3.6.0/linux_amd64/
+chmod +x ~/.terraform.d/plugins/registry.terraform.io/hashicorp/random/3.6.0/linux_amd64/terraform-provider-random*
+```
